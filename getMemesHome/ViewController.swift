@@ -45,11 +45,17 @@ class ViewController: UIViewController {
 //MARK: - TableView Delegate and Data Source
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        viewModel?.numberOfMemes ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let cell = memesTableView.dequeueReusableCell(withIdentifier: reuseIdentefier) as! MemesTableViewCell
+        
+        guard let data = (viewModel?.data(for: indexPath)) else {return cell}
+        
+        cell.configure(for: data)
+        
+        return cell
     }
     
     
@@ -58,6 +64,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 // MARK: - Protocol Extension
 extension ViewController: NotifaiableController {
     func dataLoaded() {
+        memesTableView.reloadData()
     }
     
 }

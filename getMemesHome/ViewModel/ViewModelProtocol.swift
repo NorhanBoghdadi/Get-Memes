@@ -9,7 +9,7 @@ import Foundation
 
 protocol ViewModelProtocol: AnyObject {
     var viewController: NotifaiableController? { get }
-    var numberOfCharacters: Int { get }
+    var numberOfMemes: Int { get }
     func data(for cellAt: IndexPath) -> Meme
 
 }

@@ -15,7 +15,7 @@ class HomeViewModel: ViewModelProtocol {
     
     var viewController: NotifaiableController?
     
-    var numberOfCharacters: Int {
+    var numberOfMemes: Int {
         memes.count
     }
     
