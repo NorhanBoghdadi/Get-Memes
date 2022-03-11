@@ -14,6 +14,8 @@
 		51A0E84A27DBC23C00572CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51A0E84827DBC23C00572CB2 /* LaunchScreen.storyboard */; };
 		51A0E85527DBC23D00572CB2 /* getMemesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A0E85427DBC23D00572CB2 /* getMemesTests.swift */; };
 		51A0E86027DBC23D00572CB2 /* getMemesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A0E85F27DBC23D00572CB2 /* getMemesUITests.swift */; };
+		51A0E87627DBC31500572CB2 /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A0E87527DBC31500572CB2 /* ViewModelProtocol.swift */; };
+		51A0E87E27DBC37B00572CB2 /* GetMemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A0E87D27DBC37B00572CB2 /* GetMemeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		51A0E85B27DBC23D00572CB2 /* getMemesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getMemesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A0E85F27DBC23D00572CB2 /* getMemesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getMemesUITests.swift; sourceTree = "<group>"; };
 		51A0E86127DBC23D00572CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51A0E87527DBC31500572CB2 /* ViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
+		51A0E87D27DBC37B00572CB2 /* GetMemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMemeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				51A0E84127DBC23900572CB2 /* ViewController.swift */,
+				51A0E87D27DBC37B00572CB2 /* GetMemeModel.swift */,
 				51A0E87427DBC2A600572CB2 /* ViewModel */,
 				51A0E87327DBC28300572CB2 /* App Starter */,
 			);
@@ -137,6 +142,7 @@
 		51A0E87427DBC2A600572CB2 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				51A0E87527DBC31500572CB2 /* ViewModelProtocol.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -270,7 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51A0E87627DBC31500572CB2 /* ViewModelProtocol.swift in Sources */,
 				51A0E84227DBC23900572CB2 /* ViewController.swift in Sources */,
+				51A0E87E27DBC37B00572CB2 /* GetMemeModel.swift in Sources */,
 				51A0E83E27DBC23900572CB2 /* AppDelegate.swift in Sources */,
 				51A0E84027DBC23900572CB2 /* SceneDelegate.swift in Sources */,
 			);
