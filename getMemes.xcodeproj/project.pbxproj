@@ -10,7 +10,6 @@
 		51A0E83E27DBC23900572CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A0E83D27DBC23900572CB2 /* AppDelegate.swift */; };
 		51A0E84027DBC23900572CB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A0E83F27DBC23900572CB2 /* SceneDelegate.swift */; };
 		51A0E84227DBC23900572CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A0E84127DBC23900572CB2 /* ViewController.swift */; };
-		51A0E84527DBC23900572CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51A0E84327DBC23900572CB2 /* Main.storyboard */; };
 		51A0E84727DBC23C00572CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A0E84627DBC23C00572CB2 /* Assets.xcassets */; };
 		51A0E84A27DBC23C00572CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51A0E84827DBC23C00572CB2 /* LaunchScreen.storyboard */; };
 		51A0E85527DBC23D00572CB2 /* getMemesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A0E85427DBC23D00572CB2 /* getMemesTests.swift */; };
@@ -39,7 +38,6 @@
 		51A0E83D27DBC23900572CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51A0E83F27DBC23900572CB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		51A0E84127DBC23900572CB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		51A0E84427DBC23900572CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51A0E84627DBC23C00572CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51A0E84927DBC23C00572CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51A0E84B27DBC23C00572CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,13 +97,9 @@
 		51A0E83C27DBC23900572CB2 /* getMemes */ = {
 			isa = PBXGroup;
 			children = (
-				51A0E83D27DBC23900572CB2 /* AppDelegate.swift */,
-				51A0E83F27DBC23900572CB2 /* SceneDelegate.swift */,
 				51A0E84127DBC23900572CB2 /* ViewController.swift */,
-				51A0E84327DBC23900572CB2 /* Main.storyboard */,
-				51A0E84627DBC23C00572CB2 /* Assets.xcassets */,
-				51A0E84827DBC23C00572CB2 /* LaunchScreen.storyboard */,
-				51A0E84B27DBC23C00572CB2 /* Info.plist */,
+				51A0E87427DBC2A600572CB2 /* ViewModel */,
+				51A0E87327DBC28300572CB2 /* App Starter */,
 			);
 			path = getMemes;
 			sourceTree = "<group>";
@@ -126,6 +120,25 @@
 				51A0E86127DBC23D00572CB2 /* Info.plist */,
 			);
 			path = getMemesUITests;
+			sourceTree = "<group>";
+		};
+		51A0E87327DBC28300572CB2 /* App Starter */ = {
+			isa = PBXGroup;
+			children = (
+				51A0E84B27DBC23C00572CB2 /* Info.plist */,
+				51A0E84827DBC23C00572CB2 /* LaunchScreen.storyboard */,
+				51A0E84627DBC23C00572CB2 /* Assets.xcassets */,
+				51A0E83F27DBC23900572CB2 /* SceneDelegate.swift */,
+				51A0E83D27DBC23900572CB2 /* AppDelegate.swift */,
+			);
+			path = "App Starter";
+			sourceTree = "<group>";
+		};
+		51A0E87427DBC2A600572CB2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +246,6 @@
 			files = (
 				51A0E84A27DBC23C00572CB2 /* LaunchScreen.storyboard in Resources */,
 				51A0E84727DBC23C00572CB2 /* Assets.xcassets in Resources */,
-				51A0E84527DBC23900572CB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +308,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		51A0E84327DBC23900572CB2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51A0E84427DBC23900572CB2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		51A0E84827DBC23C00572CB2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
