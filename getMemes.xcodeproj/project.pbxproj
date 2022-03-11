@@ -92,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				51A0E89127DBC5B400572CB2 /* Shared */,
-				51A0E87327DBC28300572CB2 /* App Starter */,
+				51A0E87327DBC28300572CB2 /* AppStarter */,
 				51A0E83C27DBC23900572CB2 /* getMemesHome */,
 				51A0E85327DBC23D00572CB2 /* getMemesTests */,
 				51A0E85E27DBC23D00572CB2 /* getMemesUITests */,
@@ -139,7 +139,7 @@
 			path = getMemesUITests;
 			sourceTree = "<group>";
 		};
-		51A0E87327DBC28300572CB2 /* App Starter */ = {
+		51A0E87327DBC28300572CB2 /* AppStarter */ = {
 			isa = PBXGroup;
 			children = (
 				51A0E84B27DBC23C00572CB2 /* Info.plist */,
@@ -148,7 +148,7 @@
 				51A0E83F27DBC23900572CB2 /* SceneDelegate.swift */,
 				51A0E83D27DBC23900572CB2 /* AppDelegate.swift */,
 			);
-			path = "App Starter";
+			path = AppStarter;
 			sourceTree = "<group>";
 		};
 		51A0E87427DBC2A600572CB2 /* ViewModel */ = {
@@ -478,7 +478,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JEA464R55J;
-				INFOPLIST_FILE = getMemes/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AppStarter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +497,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JEA464R55J;
-				INFOPLIST_FILE = getMemes/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AppStarter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
