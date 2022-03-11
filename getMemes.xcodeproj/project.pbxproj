@@ -115,8 +115,8 @@
 			children = (
 				51A0E84127DBC23900572CB2 /* ViewController.swift */,
 				51A0E87D27DBC37B00572CB2 /* GetMemeModel.swift */,
-				51A0E87427DBC2A600572CB2 /* ViewModel */,
 				51A0E8A127DBC7F700572CB2 /* MemesTableViewCell.swift */,
+				51A0E87427DBC2A600572CB2 /* ViewModel */,
 			);
 			path = getMemesHome;
 			sourceTree = "<group>";

@@ -9,11 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var viewModel: ViewModelProtocol?
+    
+    let reuseIdentefier = "reuseIden"
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        viewModel = HomeViewModel(viewController: self)
     }
 
 
 }
 
+// MARK: - Protocol Extension
+extension ViewController: NotifaiableController {
+    func dataLoaded() {
+    }
+    
+}
