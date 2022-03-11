@@ -18,6 +18,7 @@
 		51A0E87E27DBC37B00572CB2 /* GetMemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A0E87D27DBC37B00572CB2 /* GetMemeModel.swift */; };
 		51A0E88327DBC3F700572CB2 /* HomeViewModel .swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A0E88227DBC3F700572CB2 /* HomeViewModel .swift */; };
 		51A0E89327DBC5C600572CB2 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A0E89227DBC5C600572CB2 /* ImageLoader.swift */; };
+		51A0E89827DBC70900572CB2 /* UIimageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A0E89727DBC70900572CB2 /* UIimageView+Download.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		51A0E87D27DBC37B00572CB2 /* GetMemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMemeModel.swift; sourceTree = "<group>"; };
 		51A0E88227DBC3F700572CB2 /* HomeViewModel .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewModel .swift"; sourceTree = "<group>"; };
 		51A0E89227DBC5C600572CB2 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		51A0E89727DBC70900572CB2 /* UIimageView+Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIimageView+Download.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				51A0E89227DBC5C600572CB2 /* ImageLoader.swift */,
+				51A0E89727DBC70900572CB2 /* UIimageView+Download.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				51A0E87627DBC31500572CB2 /* ViewModelProtocol.swift in Sources */,
 				51A0E84227DBC23900572CB2 /* ViewController.swift in Sources */,
 				51A0E87E27DBC37B00572CB2 /* GetMemeModel.swift in Sources */,
+				51A0E89827DBC70900572CB2 /* UIimageView+Download.swift in Sources */,
 				51A0E83E27DBC23900572CB2 /* AppDelegate.swift in Sources */,
 				51A0E84027DBC23900572CB2 /* SceneDelegate.swift in Sources */,
 				51A0E88327DBC3F700572CB2 /* HomeViewModel .swift in Sources */,
