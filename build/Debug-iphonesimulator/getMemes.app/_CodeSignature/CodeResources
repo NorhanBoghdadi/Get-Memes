@@ -20,6 +20,46 @@
 		<data>
 		HB3AkCp7ZrEiKg0GEdnuLtJVRkA=
 		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
+		<data>
+		IZ2cpU6lyNUATpeUo7eSI7eDoZc=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport</key>
+		<data>
+		YFuZGLLDB4Ea1k0ZzXO2dbp0X1s=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/_CodeSignature/CodeResources</key>
+		<data>
+		jbPEbDlGHXbNd5nYdsfIyt7Em48=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/version.plist</key>
+		<data>
+		FEBP+sQbxwB1dFlBRTJRi1qvtA8=
+		</data>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<data>
+		OK2HhX21AsJhV8pNaFeBSN2GbLM=
+		</data>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<data>
+		84Uo43JK5jrAaOsCVgAB3azddpI=
+		</data>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<data>
+		kOGqhlDzrfLsJALgBwn5x3zH6Dk=
+		</data>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<data>
+		FEBP+sQbxwB1dFlBRTJRi1qvtA8=
+		</data>
+		<key>Frameworks/libXCTestBundleInject.dylib</key>
+		<data>
+		d+7DxuBBpCT6MJ2aUgKxg2LL+hM=
+		</data>
+		<key>Frameworks/libXCTestSwiftSupport.dylib</key>
+		<data>
+		428Umotss3W3Ai3P0wHEIs18xYI=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		rzCvXt6PmY0wFMX4cLVYBzO9Mhk=
@@ -27,6 +67,22 @@
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>PlugIns/getMemesTests.xctest/Info.plist</key>
+		<data>
+		BBntsKvXNWgqnnE4XGsV31UysuQ=
+		</data>
+		<key>PlugIns/getMemesTests.xctest/_CodeSignature/CodeResources</key>
+		<data>
+		6nH/rt7Smsy/Q/wy0DWX7ff/0lU=
+		</data>
+		<key>PlugIns/getMemesTests.xctest/getMemesTests</key>
+		<data>
+		UvVoWmHuQ4q3hR3o+SiHrciK6B0=
+		</data>
+		<key>PlugIns/getMemesTests.xctest/meme-test</key>
+		<data>
+		WyzClm+5S2iRQlz0/YvWwCq/TzQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -57,6 +113,104 @@
 			<key>hash2</key>
 			<data>
 			5HuLPYe4Z2hwT57i4d15gEn2IhIAQd98QMlGfCWjz3I=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EQbkiWy3gK4/xL2SWzbE7VwEWqY6cawMg2YlvZ5fcic=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ekOAdTiuYFaRGsnjwsarT1mMfjfYF9PEJorFk6zawiw=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Vuq4M8rC4Cv4JQrQBWLm4JzskNmjmJtG43hbAG0FwKc=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xK7df/LSaNZaTGvk96UY7KF0zlKK03ygFT8PrJpq1Ao=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cyPhBXzA5juKirOkiiHuj+CG2//GIWvbXRQo1ajPuDQ=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5ymXU1/NZAZNjjuidUBMI+MWrO675Fpi6lhB6kmKAcI=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WPrEocT0Gr1edKqZzypeWFsBo6pYY6ixqvM72VeQH48=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xK7df/LSaNZaTGvk96UY7KF0zlKK03ygFT8PrJpq1Ao=
+			</data>
+		</dict>
+		<key>Frameworks/libXCTestBundleInject.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hLpFjd/M3uYeUkHMEOb3oGhlqCZIbzL0+brauuYjGkY=
+			</data>
+		</dict>
+		<key>Frameworks/libXCTestSwiftSupport.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DAnlRZAqvNEgBjddLcY/kEbna/hc8UcAca5KDz34ELk=
+			</data>
+		</dict>
+		<key>PlugIns/getMemesTests.xctest/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PRd4Muc/TWDLFmF1/rFqPtM5nxhnT2DBICUDEI60T4g=
+			</data>
+		</dict>
+		<key>PlugIns/getMemesTests.xctest/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fEiqe5CqX66PssxHpSHHo6LCqNYqgrsaai5SQkiv/P4=
+			</data>
+		</dict>
+		<key>PlugIns/getMemesTests.xctest/getMemesTests</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eW5EVB5H/XN9ot3kAim6TDpgo2/WP07Vwu1PgTVc7Hk=
+			</data>
+		</dict>
+		<key>PlugIns/getMemesTests.xctest/meme-test</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i1g/HWp1ZsIz/vyhKk/f1oAquDuVsyDppCgvwCxvlb0=
 			</data>
 		</dict>
 	</dict>
