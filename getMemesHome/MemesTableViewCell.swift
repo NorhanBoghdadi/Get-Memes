@@ -13,6 +13,7 @@ class MemesTableViewCell: UITableViewCell {
         let imgView = UIImageView()
         imgView.translatesAutoresizingMaskIntoConstraints = false
         imgView.layer.cornerRadius = 5
+        imgView.contentMode = .scaleToFill
         imgView.clipsToBounds = true
         return imgView
     }()
