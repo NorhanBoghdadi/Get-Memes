@@ -22,8 +22,19 @@ class ViewController: UIViewController {
         return label
     }()
     
+    private lazy var MemesCollectionView: UICollectionView = {
+        let memesLayout = UICollectionViewFlowLayout()
+        memesLayout.scrollDirection = .vertical
+        memesLayout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
+        let cv = UICollectionView(frame: .zero, collectionViewLayout: memesLayout)
+        cv.registerCell(cellClass: MemesCollectionViewCell.self)
+        cv.delegate = self
+        cv.dataSource = self
+        cv.backgroundColor = .systemBackground
+        cv.showsHorizontalScrollIndicator = false
+        return cv
+    }()
 
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,7 +58,25 @@ class ViewController: UIViewController {
 
 
 }
+//MARK: - CollectionView Delegates and DataSource
+extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
 
+
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return viewModel?.numberOfMemes ?? 0
+    }
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+
+        let cell = MemesCollectionView.dequeue(for: indexPath) as MemesCollectionViewCell
+        
+        let data = viewModel?.data(for: indexPath)
+        
+        cell.configure(for: data!)
+        
+        return cell
+    }
+    
+}
 
 // MARK: - Protocol Extension
 extension ViewController: NotifaiableController {
