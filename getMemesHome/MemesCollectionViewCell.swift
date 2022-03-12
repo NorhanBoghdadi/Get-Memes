@@ -7,25 +7,25 @@
 
 import UIKit
 
-class MemesTableViewCell: UITableViewCell {
-
-    private lazy var memeImage: UIImageView = {
-        let imgView = UIImageView()
-        imgView.translatesAutoresizingMaskIntoConstraints = false
-        imgView.layer.cornerRadius = 5
-        imgView.clipsToBounds = true
-        return imgView
-    }()
+class MemesCollectionViewCell: UICollectionViewCell {
     
-    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-        super.init(style: style, reuseIdentifier: reuseIdentifier)
+    private lazy var memeImage: UIImageView = {
+            let imgView = UIImageView()
+            imgView.translatesAutoresizingMaskIntoConstraints = false
+            imgView.layer.cornerRadius = 5
+            imgView.clipsToBounds = true
+            return imgView
+        }()
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+       
         setupMemes()
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
     //MARK: - Setup ImageView
     private func setupMemes() {
         contentView.addSubview(memeImage)
@@ -39,9 +39,9 @@ class MemesTableViewCell: UITableViewCell {
 
         ])
     }
-    
-    func configure(for memes: Meme)  {
+    // MARK: - Configure cell
+    func configure(for memes: Meme) {
         try? memeImage.setImage(url: memes.url, placeHolder: UIImage(named: "loading")!)
     }
-
+    
 }
