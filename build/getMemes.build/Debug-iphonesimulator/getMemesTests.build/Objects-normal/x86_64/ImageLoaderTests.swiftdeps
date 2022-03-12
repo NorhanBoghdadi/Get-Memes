@@ -1,0 +1,265 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImageLoaderTests"
+provides-nominal:
+- "13getMemesTests011ImageLoaderC0C"
+provides-member:
+- ["13getMemesTests011ImageLoaderC0C", ""]
+provides-dynamic-lookup:
+- "testImageLoader"
+depends-top-level:
+- !private "ImageLoader"
+- "ImageLoaderTests"
+- !private "StringLiteralType"
+- !private "UIImage"
+- !private "URL"
+- "XCTAssertEqual"
+- "XCTAssertThrowsError"
+- "XCTestCase"
+depends-member:
+- !private ["s7CVarArgP", "ImageLoader"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "XCTAssertEqual"]
+- !private ["s7CVarArgP", "XCTAssertThrowsError"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pngData"]
+- !private ["s7CVarArgP", "testImageLoader"]
+- !private ["s28CustomDebugStringConvertibleP", "ImageLoader"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertEqual"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertThrowsError"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "pngData"]
+- !private ["s28CustomDebugStringConvertibleP", "testImageLoader"]
+- !private ["s23CustomStringConvertibleP", "ImageLoader"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertEqual"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertThrowsError"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "pngData"]
+- !private ["s23CustomStringConvertibleP", "testImageLoader"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "ImageLoader"]
+- !private ["SQ", "UIImage"]
+- !private ["SQ", "URL"]
+- !private ["SQ", "XCTAssertEqual"]
+- !private ["SQ", "XCTAssertThrowsError"]
+- ["SQ", ""]
+- !private ["SQ", "failure"]
+- !private ["SQ", "init"]
+- !private ["SQ", "pngData"]
+- !private ["SQ", "success"]
+- !private ["SQ", "testImageLoader"]
+- !private ["SH", "ImageLoader"]
+- !private ["SH", "UIImage"]
+- !private ["SH", "URL"]
+- !private ["SH", "XCTAssertEqual"]
+- !private ["SH", "XCTAssertThrowsError"]
+- ["SH", ""]
+- !private ["SH", "failure"]
+- !private ["SH", "init"]
+- !private ["SH", "pngData"]
+- !private ["SH", "success"]
+- !private ["SH", "testImageLoader"]
+- !private ["8getMemes11ImageLoaderC", "loadImageData"]
+- !private ["8getMemes11ImageLoaderC", "shared"]
+- !private ["13getMemesTests011ImageLoaderC0C", "ImageLoader"]
+- !private ["13getMemesTests011ImageLoaderC0C", "UIImage"]
+- !private ["13getMemesTests011ImageLoaderC0C", "URL"]
+- !private ["13getMemesTests011ImageLoaderC0C", "XCTAssertEqual"]
+- !private ["13getMemesTests011ImageLoaderC0C", "XCTAssertThrowsError"]
+- ["13getMemesTests011ImageLoaderC0C", ""]
+- ["13getMemesTests011ImageLoaderC0C", "deinit"]
+- ["13getMemesTests011ImageLoaderC0C", "init"]
+- ["13getMemesTests011ImageLoaderC0C", "testImageLoader"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "pngData"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "pngData"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "pngData"]
+- !private ["So8NSObjectC", "ImageLoader"]
+- !private ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "XCTAssertEqual"]
+- !private ["So8NSObjectC", "XCTAssertThrowsError"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "imageNamed"]
+- !private ["So8NSObjectC", "imageWithCGImage"]
+- !private ["So8NSObjectC", "imageWithCIImage"]
+- !private ["So8NSObjectC", "imageWithContentsOfFile"]
+- !private ["So8NSObjectC", "imageWithData"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jpegData"]
+- !private ["So8NSObjectC", "pngData"]
+- !private ["So8NSObjectC", "systemImageNamed"]
+- ["So8NSObjectC", "testCaseWithInvocation"]
+- ["So8NSObjectC", "testCaseWithSelector"]
+- ["So8NSObjectC", "testImageLoader"]
+- !private ["So8NSObjectP", "ImageLoader"]
+- !private ["So8NSObjectP", "UIImage"]
+- !private ["So8NSObjectP", "URL"]
+- !private ["So8NSObjectP", "XCTAssertEqual"]
+- !private ["So8NSObjectP", "XCTAssertThrowsError"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "imageNamed"]
+- !private ["So8NSObjectP", "imageWithCGImage"]
+- !private ["So8NSObjectP", "imageWithCIImage"]
+- !private ["So8NSObjectP", "imageWithContentsOfFile"]
+- !private ["So8NSObjectP", "imageWithData"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "jpegData"]
+- !private ["So8NSObjectP", "pngData"]
+- !private ["So8NSObjectP", "systemImageNamed"]
+- ["So8NSObjectP", "testCaseWithInvocation"]
+- ["So8NSObjectP", "testCaseWithSelector"]
+- ["So8NSObjectP", "testImageLoader"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "pngData"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "pngData"]
+- !private ["So7UIImageC", "init"]
+- !private ["So7UIImageC", "pngData"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "pngData"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["So11XCTActivityP", "ImageLoader"]
+- !private ["So11XCTActivityP", "UIImage"]
+- !private ["So11XCTActivityP", "URL"]
+- !private ["So11XCTActivityP", "XCTAssertEqual"]
+- !private ["So11XCTActivityP", "XCTAssertThrowsError"]
+- ["So11XCTActivityP", ""]
+- ["So11XCTActivityP", "init"]
+- ["So11XCTActivityP", "testImageLoader"]
+- !private ["So17XCTWaiterDelegateP", "ImageLoader"]
+- !private ["So17XCTWaiterDelegateP", "UIImage"]
+- !private ["So17XCTWaiterDelegateP", "URL"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertEqual"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertThrowsError"]
+- ["So17XCTWaiterDelegateP", ""]
+- ["So17XCTWaiterDelegateP", "init"]
+- ["So17XCTWaiterDelegateP", "testImageLoader"]
+- !private ["So6XCTestC", "ImageLoader"]
+- !private ["So6XCTestC", "UIImage"]
+- !private ["So6XCTestC", "URL"]
+- !private ["So6XCTestC", "XCTAssertEqual"]
+- !private ["So6XCTestC", "XCTAssertThrowsError"]
+- ["So6XCTestC", ""]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "testCaseWithInvocation"]
+- ["So6XCTestC", "testCaseWithSelector"]
+- ["So6XCTestC", "testImageLoader"]
+- !private ["So10XCTestCaseC", "ImageLoader"]
+- !private ["So10XCTestCaseC", "UIImage"]
+- !private ["So10XCTestCaseC", "URL"]
+- !private ["So10XCTestCaseC", "XCTAssertEqual"]
+- !private ["So10XCTestCaseC", "XCTAssertThrowsError"]
+- ["So10XCTestCaseC", ""]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "testImageLoader"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "pngData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ImageLoader"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertEqual"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertThrowsError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pngData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testImageLoader"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ImageLoader"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssertEqual"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssertThrowsError"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pngData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testImageLoader"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "SH"
+- !private "8getMemes11ImageLoaderC"
+- "13getMemesTests011ImageLoaderC0C"
+- !private "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s6ResultO"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "10Foundation3URLV"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/norhanboghdadi/Documents/getMemes/build/Debug-iphonesimulator/getMemes.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5ca7dc644c275239644c62acfd3e6a31"

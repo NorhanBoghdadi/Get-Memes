@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		512F432927DCBB29006B2141 /* meme-test in Resources */ = {isa = PBXBuildFile; fileRef = 512F432827DCBB29006B2141 /* meme-test */; };
+		512F433A27DCBC1C006B2141 /* ImageLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F432327DCBB0A006B2141 /* ImageLoaderTests.swift */; };
 		51A0E83E27DBC23900572CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A0E83D27DBC23900572CB2 /* AppDelegate.swift */; };
 		51A0E84027DBC23900572CB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A0E83F27DBC23900572CB2 /* SceneDelegate.swift */; };
 		51A0E84227DBC23900572CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A0E84127DBC23900572CB2 /* ViewController.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		512F432327DCBB0A006B2141 /* ImageLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderTests.swift; sourceTree = "<group>"; };
+		512F432827DCBB29006B2141 /* meme-test */ = {isa = PBXFileReference; lastKnownFileType = file; path = "meme-test"; sourceTree = "<group>"; };
 		51A0E83A27DBC23900572CB2 /* getMemes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getMemes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A0E83D27DBC23900572CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51A0E83F27DBC23900572CB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +128,8 @@
 		51A0E85327DBC23D00572CB2 /* getMemesTests */ = {
 			isa = PBXGroup;
 			children = (
+				512F432327DCBB0A006B2141 /* ImageLoaderTests.swift */,
+				512F432827DCBB29006B2141 /* meme-test */,
 				51A0E85427DBC23D00572CB2 /* getMemesTests.swift */,
 				51A0E85627DBC23D00572CB2 /* Info.plist */,
 			);
@@ -282,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512F432927DCBB29006B2141 /* meme-test in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512F433A27DCBC1C006B2141 /* ImageLoaderTests.swift in Sources */,
 				51A0E85527DBC23D00572CB2 /* getMemesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

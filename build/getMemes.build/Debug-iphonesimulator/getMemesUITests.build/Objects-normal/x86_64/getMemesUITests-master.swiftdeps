@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "62aee1dda3b5cd3373d305775cdcc222"
+build_time: [1647084531, 488834000]
+inputs:
+  "/Users/norhanboghdadi/Documents/getMemes/getMemesUITests/getMemesUITests.swift": [1647020733, 366932082]

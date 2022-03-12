@@ -200,7 +200,6 @@ depends-member:
 - ["8getMemes4MemeV", "name"]
 - ["8getMemes4MemeV", "url"]
 - ["8getMemes4MemeV", "width"]
-- ["So8NSCodingP", ""]
 - ["So8NSObjectP", ""]
 - ["SY", "=="]
 - ["SY", "Default_RawValue"]
@@ -257,7 +256,6 @@ depends-nominal:
 - !private "s22KeyedEncodingContainerV"
 - !private "s30KeyedEncodingContainerProtocolP"
 - "8getMemes4MemeV"
-- "So8NSCodingP"
 - "So8NSObjectP"
 - "SY"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
