@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var viewModel: ViewModelProtocol?
+    var viewModel: ViewModelProtocol!
     let reuseIdentefier = "reuseIden"
     
     private lazy var titleLabel: UILabel = {
@@ -28,10 +28,10 @@ class ViewController: UIViewController {
         memesLayout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
         let cv = UICollectionView(frame: .zero, collectionViewLayout: memesLayout)
         cv.registerCell(cellClass: MemesCollectionViewCell.self)
+        cv.translatesAutoresizingMaskIntoConstraints = false
         cv.delegate = self
         cv.dataSource = self
         cv.backgroundColor = .systemBackground
-        cv.showsHorizontalScrollIndicator = false
         return cv
     }()
 
@@ -41,6 +41,7 @@ class ViewController: UIViewController {
         viewModel = HomeViewModel(viewController: self)
         view.backgroundColor = .black
         setupTitle()
+        setupCollectionView()
     }
     //MARK: - Setting Title
     private func setupTitle() {
@@ -52,6 +53,17 @@ class ViewController: UIViewController {
             titleLabel.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor)
         ])
     }
+    //MARK: - Setting collectionView
+    private func setupCollectionView() {
+        view.addSubview(MemesCollectionView)
+        
+        NSLayoutConstraint.activate([
+            MemesCollectionView.topAnchor.constraint(equalTo: titleLabel.bottomAnchor),
+            MemesCollectionView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
+            MemesCollectionView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
+            MemesCollectionView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor)
+        ])
+    }
     
 
     
@@ -61,17 +73,16 @@ class ViewController: UIViewController {
 //MARK: - CollectionView Delegates and DataSource
 extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
 
-
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return viewModel?.numberOfMemes ?? 0
+        return viewModel.numberOfMemes
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 
         let cell = MemesCollectionView.dequeue(for: indexPath) as MemesCollectionViewCell
         
-        let data = viewModel?.data(for: indexPath)
+        let data = viewModel.data(for: indexPath)
         
-        cell.configure(for: data!)
+        cell.configure(for: data)
         
         return cell
     }
@@ -81,6 +92,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
 // MARK: - Protocol Extension
 extension ViewController: NotifaiableController {
     func dataLoaded() {
+        MemesCollectionView.reloadData()
     }
     
 }

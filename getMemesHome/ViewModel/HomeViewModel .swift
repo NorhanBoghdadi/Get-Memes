@@ -48,7 +48,7 @@ class HomeViewModel: ViewModelProtocol {
         guard let data = respone.0 else { return }
         do {
             memes = try process(data: data)
-            viewController?.dataLoaded()
+//            viewController?.dataLoaded()
         } catch {
              print(error.localizedDescription)
         }

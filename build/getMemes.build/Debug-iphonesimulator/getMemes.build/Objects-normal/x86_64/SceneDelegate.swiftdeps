@@ -223,6 +223,8 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "makeKeyAndVisible"]
 - !private ["So21UIAppearanceContainerP", "rootViewController"]
 - !private ["So21UIAppearanceContainerP", "windowScene"]
+- !private ["So26UICollectionViewDataSourceP", "init"]
+- !private ["So24UICollectionViewDelegateP", "init"]
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "bounds"]
@@ -341,8 +343,6 @@ depends-member:
 - !private ["So20UIScrollViewDelegateP", ""]
 - !private ["So20UIScrollViewDelegateP", "init"]
 - !private ["So16UIStateRestoringP", "init"]
-- !private ["So21UITableViewDataSourceP", "init"]
-- !private ["So19UITableViewDelegateP", "init"]
 - !private ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "makeKeyAndVisible"]
@@ -476,6 +476,8 @@ depends-nominal:
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - !private "So21UIAppearanceContainerP"
+- !private "So26UICollectionViewDataSourceP"
+- !private "So24UICollectionViewDelegateP"
 - !private "So18UIContentContainerP"
 - !private "So17UICoordinateSpaceP"
 - !private "So13UIDynamicItemP"
@@ -490,8 +492,6 @@ depends-nominal:
 - "So15UISceneDelegateP"
 - !private "So20UIScrollViewDelegateP"
 - !private "So16UIStateRestoringP"
-- !private "So21UITableViewDataSourceP"
-- !private "So19UITableViewDelegateP"
 - !private "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
 - "So6UIViewC"
