@@ -25,7 +25,10 @@ class ViewController: UIViewController {
     private lazy var MemesCollectionView: UICollectionView = {
         let memesLayout = UICollectionViewFlowLayout()
         memesLayout.scrollDirection = .vertical
-        memesLayout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
+        memesLayout.sectionInset = UIEdgeInsets(top: 20, left: 0, bottom: 10, right: 0)
+        memesLayout.itemSize = CGSize(width: (UIScreen.main.bounds.width) / 3, height: (UIScreen.main.bounds.width) / 3)
+        memesLayout.minimumInteritemSpacing = 0
+        memesLayout.minimumLineSpacing = 0
         let cv = UICollectionView(frame: .zero, collectionViewLayout: memesLayout)
         cv.registerCell(cellClass: MemesCollectionViewCell.self)
         cv.translatesAutoresizingMaskIntoConstraints = false
