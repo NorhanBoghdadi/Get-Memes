@@ -26,20 +26,7 @@ extension UICollectionView {
         }
         return cell
     }
-    
-    func registerSupplementaryView<View: UICollectionReusableView>(viewClass: View.Type, kind: SupplementaryViewKind) {
-        let viewKind = kind == .header ? UICollectionView.elementKindSectionHeader : UICollectionView.elementKindSectionHeader
-        let identifier = String(describing: View.self)
-        self.register(View.self, forSupplementaryViewOfKind:viewKind, withReuseIdentifier: identifier)
-    }
-    
-    func dequeueSupplementaryView<View: UICollectionReusableView>(for indexPath: IndexPath, ofKind kind: String) -> View {
-        let identifier = String(describing: View.self)
-        guard let view = self.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: identifier, for: indexPath) as? View else {
-            fatalError("Error in dequeue Supplementary View")
-        }
-        return view
-    }
+
 }
 
 extension UICollectionViewCell {
