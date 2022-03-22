@@ -40,7 +40,6 @@ depends-top-level:
 - !private "print"
 - !private "process"
 - !private "send"
-- !private "viewController"
 depends-member:
 - !private ["Sa", "count"]
 - ["Sa", "init"]

@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var viewModel: ViewModelProtocol?
+    var viewModel: ViewModelProtocol!
     let reuseIdentefier = "reuseIden"
     
     private lazy var titleLabel: UILabel = {
@@ -22,22 +22,29 @@ class ViewController: UIViewController {
         return label
     }()
     
-    private lazy var memesTableView: UITableView = {
-        let tableView = UITableView()
-        tableView.translatesAutoresizingMaskIntoConstraints = false
-        tableView.delegate = self
-        tableView.dataSource = self
-        tableView.register(MemesTableViewCell.self, forCellReuseIdentifier: reuseIdentefier)
-        return tableView
+    private lazy var MemesCollectionView: UICollectionView = {
+        let memesLayout = UICollectionViewFlowLayout()
+        memesLayout.scrollDirection = .vertical
+        memesLayout.sectionInset = UIEdgeInsets(top: 20, left: 0, bottom: 10, right: 0)
+        memesLayout.itemSize = CGSize(width: (UIScreen.main.bounds.width) / 3, height: (UIScreen.main.bounds.width) / 3)
+        memesLayout.minimumInteritemSpacing = 0
+        memesLayout.minimumLineSpacing = 0
+        let cv = UICollectionView(frame: .zero, collectionViewLayout: memesLayout)
+        cv.registerCell(cellClass: MemesCollectionViewCell.self)
+        cv.translatesAutoresizingMaskIntoConstraints = false
+        cv.delegate = self
+        cv.dataSource = self
+        cv.backgroundColor = .systemBackground
+        return cv
     }()
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel = HomeViewModel(viewController: self)
         view.backgroundColor = .black
         setupTitle()
-        setupTableView()
+        setupCollectionView()
     }
     //MARK: - Setting Title
     private func setupTitle() {
@@ -49,45 +56,46 @@ class ViewController: UIViewController {
             titleLabel.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor)
         ])
     }
-    
-    //MARK:- Setting the tableView
-    private func setupTableView() {
-        view.addSubview(memesTableView)
+    //MARK: - Setting collectionView
+    private func setupCollectionView() {
+        view.addSubview(MemesCollectionView)
+        
         NSLayoutConstraint.activate([
-            memesTableView.topAnchor.constraint(equalTo: titleLabel.bottomAnchor),
-            memesTableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
-            memesTableView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
-            memesTableView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor)
+            MemesCollectionView.topAnchor.constraint(equalTo: titleLabel.bottomAnchor),
+            MemesCollectionView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
+            MemesCollectionView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
+            MemesCollectionView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor)
         ])
     }
     
 
+    
+
 
 }
+//MARK: - CollectionView Delegates and DataSource
+extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
 
-//MARK: - TableView Delegate and Data Source
-extension ViewController: UITableViewDelegate, UITableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        viewModel?.numberOfMemes ?? 0
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return viewModel.numberOfMemes
     }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = memesTableView.dequeueReusableCell(withIdentifier: reuseIdentefier) as! MemesTableViewCell
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+
+        let cell = MemesCollectionView.dequeue(for: indexPath) as MemesCollectionViewCell
         
-        guard let data = (viewModel?.data(for: indexPath)) else {return cell}
+        let data = viewModel.data(for: indexPath)
         
         cell.configure(for: data)
         
         return cell
     }
     
-    
 }
 
 // MARK: - Protocol Extension
 extension ViewController: NotifaiableController {
     func dataLoaded() {
-        memesTableView.reloadData()
+        MemesCollectionView.reloadData()
     }
     
 }
